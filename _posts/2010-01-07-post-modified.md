@@ -10,6 +10,8 @@ tags:
   	- Deep Learning
 ---
 
+## An Approach for Scalable ML development
+
 Deep learning has recently caught interests of experts in various areas, be it in academia, or industry, ranging from 3D reconstruction for CGI, to detect objects for autonomous cars. An important part of these projects is the effort spent in experimentation, and the inertia of moving a project into deployment. In this blog, I will predominantly discuss about these two topics. Lets try to define both these problems and then lets look at an attempt of mine to solve them.
 
 - **Deep learning experimentation**: A typical deep learning experiment involves a data that keeps evolving, and a model that keeps evolving. In terms of data evolution, it can happen in different ways. There could be an object detection use case where the object classes are increasing with time. Or, adding more annotated data for same number of classes. It is very important to book-keep the changes that are made in the data. Also, tangled with this evolving data, we have the developing model that depends on this evolving data and the choice of model and its hyper-parameters.
