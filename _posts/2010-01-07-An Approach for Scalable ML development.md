@@ -10,7 +10,6 @@ tags:
   - Deep Learning
 ---
 
-## An Approach for Scalable ML development
 
 Deep learning has recently caught interests of experts in various areas, be it in academia, or industry, ranging from 3D reconstruction for CGI, to detect objects for autonomous cars. An important part of these projects is the effort spent in experimentation, and the inertia of moving a project into deployment. In this blog, I will predominantly discuss about these two topics. Lets try to define both these problems and then lets look at an attempt of mine to solve them.
 
