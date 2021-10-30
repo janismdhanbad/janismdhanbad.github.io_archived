@@ -16,5 +16,8 @@ Deep learning has recently caught interests of experts in various areas, be it i
 - **Deep learning experimentation**: A typical deep learning experiment involves a data that keeps evolving, and a model that keeps evolving. In terms of data evolution, it can happen in different ways. There could be an object detection use case where the object classes are increasing with time. Or, adding more annotated data for same number of classes. It is very important to book-keep the changes that are made in the data. Also, tangled with this evolving data, we have the developing model that depends on this evolving data and the choice of model and its hyper-parameters.
 - **Inertia of moving a project into deployment**: I think this is one of the annoying problem for Data Science/Machine Learning/Deep Learning research teams. This inertia depends on numerous factors; what is your model architecture, what library are you using for development(Tensorflow or Pytorch), do we need model to be fast?, etc. There is no silver bullet in these problems, but there are some best practices that might help you to reduce the inertia of moving a project into deployment.
 
+Lets look at each of these problems seperately now. While going through the problems we can look into some of the solutions I find good to use.
 
+#### Deep learning experimentation:
 
+Deep learning experimentation might mean different to 
