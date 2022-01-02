@@ -3,7 +3,6 @@ permalink: /projects/
 title: "Projects"
 ---
 
-
 ## Projects
 
 ### Pavement Digital asset management using Deep Learning at Atkins:
