@@ -7,7 +7,7 @@ Hi, this is Janpreet. Currently doing my masters in electrical and computer scie
 Prior to my masters, I was working at Atkins, India where I did multiple projects on on the problem statement of Digital Asset Management. I used image and point cloud data to understand the defect sevrity in public assets like roads, railways, sewer lines, etc.
 
 ## My timeline
-<img src="/assets/images/timeline.png" alt="timeline" style="height:500px;"/>
+<img src="/assets/images/timeline.png" alt="timeline" style="height:400px;"/>
 
 
 ## Projects
