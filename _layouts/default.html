@@ -1,42 +1,41 @@
 ---
 ---
-
-<!doctype html>
+{%- assign lang = page.lang | default: site.lang | default: 'en' -%}
+{%- assign menu = site.data.translations.menu[page.menu][lang] -%}
+{%- assign title = page.title | default: site.title -%}
+{%- assign subtitle = page.subtitle | default: site.subtitle -%}
+{%- assign description = page.description | default: site.description -%}
+<!DOCTYPE HTML>
 <!--
-  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
-  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<html lang="{{ lang }}">
+	
+	{% include head.html title=title subtitle=subtitle %}
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-    {% include_cached skip-links.html %}
-    {% include_cached browser-upgrade.html %}
-    {% include_cached masthead.html %}
+	<body class="is-preload">
 
-    <div class="initial-content">
-      {{ content }}
-    </div>
+		<!-- Wrapper -->
+		<div id="wrapper">
 
-    {% if site.search == true %}
-      <div class="search-content">
-        {% include_cached search/search_form.html %}
-      </div>
-    {% endif %}
+			{% include header.html %}
 
-    <div id="footer" class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
-      </footer>
-    </div>
+			{% include navigation.html menu=menu%}
 
-    {% include scripts.html %}
+			<!-- Main -->
+			<div id="main">
 
-  </body>
+				{{ content }}
+
+			</div>
+
+			{% include footer.html %}
+
+		</div>
+
+		{% include scripts.html %}
+
+	</body>
 </html>
