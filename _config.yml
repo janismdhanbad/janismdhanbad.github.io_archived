@@ -91,10 +91,9 @@ sass:
 
 # Publication settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://moodule.github.io/jekyll-theme-stellar" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://janismdhanbad.github.io/janismdhanbad.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 author: David Mougeolle
 copyright:
   holder: Untitled
   license: CC0
-
 # Exclude from processing
